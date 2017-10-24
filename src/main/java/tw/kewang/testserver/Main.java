@@ -41,7 +41,7 @@ public class Main {
     }
 
     private static URI createUri() {
-        StringBuffer sb = new StringBuffer("http://0.0.0.0:").append(getPort());
+        StringBuffer sb = new StringBuffer("http://203.64.46.39:").append(getPort());
 
         try {
             return new URI(sb.toString());

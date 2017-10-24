@@ -7,7 +7,6 @@ public class Member {
     private String phoneNumber;
     private String email;
     private int age;
-    private String ans;
 
     public String getName() {
         return name;
@@ -49,12 +48,6 @@ public class Member {
         this.age = age;
     }
 
-    public Member(String name, String sex, int age, String phoneNumber, String email, String ans) {
-        this.name = name;
-        this.sex = sex;
-        this.age = age;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-    }
+
 }
 
