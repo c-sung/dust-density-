@@ -1,7 +1,5 @@
 package tw.kewang.testserver;
 
-import tw.kewang.testserver.api.DataApi;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,8 +9,8 @@ public class ServerApplication extends Application {
 	@Override
 	public Set<Class<?>> getClasses() {
 		Set<Class<?>> restServiceSet = new HashSet<Class<?>>();
-
-		restServiceSet.add(DataApi.class);
+//
+//		restServiceSet.add(DataApi.class);
 
 		return restServiceSet;
 	}
