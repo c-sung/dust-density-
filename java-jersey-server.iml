@@ -74,5 +74,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-server:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.5" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="activation-1.11" level="project" />
   </component>
 </module>
