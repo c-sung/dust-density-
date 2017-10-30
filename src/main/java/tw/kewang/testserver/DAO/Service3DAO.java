@@ -11,7 +11,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 
-public class Service3_DAO {
+public class Service3DAO {
     private static final byte[] DUST_DENSITY = Bytes.toBytes("dd");
     private static final byte[] HUMID = Bytes.toBytes("humid");
     private static final byte[] TEMPERATURE = Bytes.toBytes("temp");
@@ -19,7 +19,7 @@ public class Service3_DAO {
     private static final Gson GSON = new Gson();
     private static final Configuration hbaseConfig = HBaseConfiguration.create();
 
-    public Response put_data(String time, String dd, String humid, String temp) throws IOException {
+    public Response putData(String time, String dd, String humid, String temp) throws IOException {
         return hbaseConnect(time, dd, humid, temp);
     }
 
