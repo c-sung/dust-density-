@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="benchmark" />
         <module name="java-jersey-server" />
+        <module name="testserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="benchmark" target="1.7" />
       <module name="java-jersey-server" target="1.7" />
+      <module name="testserver" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-jersey-server.iml" filepath="$PROJECT_DIR$/java-jersey-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testserver.iml" filepath="$PROJECT_DIR$/testserver.iml" />
     </modules>
   </component>
 </project>
