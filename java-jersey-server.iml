@@ -75,9 +75,18 @@
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.5" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <orderEntry type="library" name="activation-1.11" level="project" />
 =======
 >>>>>>> device
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <orderEntry type="library" name="activation-1.11" level="project" />
+=======
+>>>>>>> fecf8af6c4739d93e87086c1e3d8c7a286030835
+>>>>>>> a900341ed2edd8982bd33a2a21999e33034199b5
     <orderEntry type="library" name="Maven: org.glassfish.jersey.containers:jersey-container-grizzly2-http:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.hk2.external:javax.inject:2.2.0-b21" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http-server:2.3.8" level="project" />
@@ -98,7 +107,12 @@
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     <orderEntry type="library" name="activation-1.11" level="project" />
 >>>>>>> device
+=======
+>>>>>>> device
+>>>>>>> fecf8af6c4739d93e87086c1e3d8c7a286030835
+>>>>>>> a900341ed2edd8982bd33a2a21999e33034199b5
   </component>
 </module>

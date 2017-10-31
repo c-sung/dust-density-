@@ -1,8 +1,11 @@
 package tw.kewang.testserver.api;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class device {
 =======
+=======
+>>>>>>> a900341ed2edd8982bd33a2a21999e33034199b5
 import com.google.gson.Gson;
 
 import javax.ws.rs.*;
@@ -27,5 +30,11 @@ public class device {
         return null;
     }
 
+<<<<<<< HEAD
 >>>>>>> device
+=======
+=======
+public class device {
+>>>>>>> fecf8af6c4739d93e87086c1e3d8c7a286030835
+>>>>>>> a900341ed2edd8982bd33a2a21999e33034199b5
 }
