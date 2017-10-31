@@ -1,0 +1,36 @@
+分工表：
+{
+	Service4: GET 方法 手機查值
+			http://203.64.46.39:8097/look_up/{time}
+			Request: /*沒有JSON，以網址帶的time做傳值*/
+			Response: 
+			{
+				"dd":"PM2.5值",
+				"temp":"溫度",
+				"humid":"濕度",
+				"time":"偵測時間"
+			}}
+} issue負責人: Amazing salmon, 陳彥睿
+
+{
+	Service3: POST 方法 Device傳值DB
+			http://203.64.46.39:8097/device/{time}
+			Request: 
+			{
+				"dd":"PM2.5值",
+				"temp":"溫度",
+				"humid":"濕度"
+			}
+			Response: 
+			{
+				"rsp_code":"200成功/400 bad request/etc",
+				"rsp_msg":"成功/失敗{原因}"
+			}
+}  issue負責人: StephenFurry, 吳威廷
+
+{
+	DAO :DataBase接觸: 
+		Table: data
+		cf: cf
+		cq: dd, temp, humid, time
+} issue負責人: Tom Cruise宋慶洪
