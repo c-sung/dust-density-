@@ -25,7 +25,7 @@ public class DetectData {
         this.humid = humid;
     }
 
-    public String getHumid(String humid) {
+    public String getHumid() {
         return this.humid;
     }
 

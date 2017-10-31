@@ -8,6 +8,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
+import tw.kewang.testserver.api.DetectData;
 
 import java.io.IOException;
 
@@ -19,7 +20,11 @@ public class Service3DAO {
     private static final Gson GSON = new Gson();
     private static final Configuration hbaseConfig = HBaseConfiguration.create();
 
-    public Response putData(String time, String dd, String humid, String temp) throws IOException {
+    public Response putData(String time, DetectData detectData) throws IOException {
+        String dd, humid, temp;
+        dd = detectData.getDd();
+        humid = detectData.getHumid();
+        temp = detectData.getTemp();
         return hbaseConnect(time, dd, humid, temp);
     }
 
