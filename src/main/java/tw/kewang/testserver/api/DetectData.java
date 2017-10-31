@@ -6,7 +6,7 @@ public class DetectData {
     public String humid;
 
     public void setDd(String dd) {
-        this.dd=dd;
+        this.dd = dd;
     }
 
     public String getDd() {
@@ -14,7 +14,7 @@ public class DetectData {
     }
 
     public void setTemp(String temp) {
-        this.temp=temp;
+        this.temp = temp;
     }
 
     public String getTemp() {
@@ -22,7 +22,7 @@ public class DetectData {
     }
 
     public void setHumid(String humid) {
-        this.humid=humid;
+        this.humid = humid;
     }
 
     public String getHumid(String humid) {
