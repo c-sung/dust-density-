@@ -1,4 +1,4 @@
-package tw.kewang.testserver.api;
+package tw.saihs.testserver.api;
 
 public class DetectData {
     public String dd;

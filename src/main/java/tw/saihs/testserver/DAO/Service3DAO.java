@@ -1,4 +1,4 @@
-package tw.kewang.testserver.DAO;
+package tw.saihs.testserver.DAO;
 
 import com.google.gson.Gson;
 
@@ -8,7 +8,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
-import tw.kewang.testserver.api.DetectData;
+import tw.saihs.testserver.api.DetectData;
 
 import java.io.IOException;
 
