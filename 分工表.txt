@@ -14,7 +14,7 @@
 
 {
 	Service3: POST 方法 Device傳值DB
-			http://203.64.46.39:8097/device/{time}
+			http://203.64.46.39:8097/Device/{time}
 			Request: 
 			{
 				"dd":"PM2.5值",

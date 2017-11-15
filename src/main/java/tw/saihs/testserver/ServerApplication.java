@@ -1,7 +1,7 @@
 package tw.saihs.testserver;
 
 import tw.saihs.testserver.api.Look_Up;
-import tw.saihs.testserver.api.device;
+import tw.saihs.testserver.api.Device;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -13,7 +13,7 @@ public class ServerApplication extends Application {
 	public Set<Class<?>> getClasses() {
 		Set<Class<?>> restServiceSet = new HashSet<Class<?>>();
 
-		restServiceSet.add(device.class);
+		restServiceSet.add(Device.class);
 		restServiceSet.add(Look_Up.class);
 
 		return restServiceSet;

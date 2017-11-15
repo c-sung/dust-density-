@@ -10,7 +10,7 @@ import tw.saihs.testserver.DAO.Service3DAO;
 import java.io.IOException;
 
 @Path("device")
-public class device {
+public class Device {
     private static final Gson GSON = new Gson();
 
     @Path("{time}")
@@ -19,10 +19,8 @@ public class device {
         DetectData detectData = new DetectData();
         detectData = GSON.fromJson(body, detectData.getClass());
         Service3DAO service3DAO = new Service3DAO();
-        service3DAO.putData(time, detectData);
-        return null;
+        return service3DAO.putData(time, detectData);
     }
-
 }
 
 
